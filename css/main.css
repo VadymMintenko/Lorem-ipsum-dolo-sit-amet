@@ -101,6 +101,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   background-position: center;
+  margin-bottom: 72px;
 }
 
 .hero__text {
@@ -136,6 +137,7 @@ img {
   padding-bottom: 8px;
   padding-left: 16px;
   padding-right: 16px;
+  cursor: pointer;
 }
 
 .button-first {
@@ -150,4 +152,17 @@ img {
   border: 1px solid rgb(118, 205, 216);
   background-color: transparent;
   color: rgb(118, 205, 216);
+}
+
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.schedule {
+  position: absolute;
+  top: 222px;
+  left: 186px;
 }/*# sourceMappingURL=main.css.map */
