@@ -7,4 +7,28 @@
 .button {
   border-radius: 4px;
   gap: 19px;
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.button-first {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(118, 205, 216, 1);
+  border: 1px solid rgba(118, 205, 216, 1);
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.12);
+}
+
+.button-second {
+  border: 1px solid rgba(118, 205, 216, 1);
+  background-color: transparent;
+  color: rgba(118, 205, 216, 1);
 }
