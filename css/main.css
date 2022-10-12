@@ -165,4 +165,16 @@ img {
   position: absolute;
   top: 222px;
   left: 186px;
+}
+
+.about__description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 674px;
+  margin-left: 72px;
 }/*# sourceMappingURL=main.css.map */
