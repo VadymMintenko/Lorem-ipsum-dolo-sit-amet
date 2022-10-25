@@ -1,6 +1,16 @@
 .about {
   display: flex;
+  flex-direction: column;
   position: relative;
+}
+
+.about-first {
+  display: flex;
+  height: 650px;
+}
+
+.about-second {
+  display: flex;
 }
 
 .schedule {
@@ -14,4 +24,14 @@
   flex-direction: column;
   width: 674px;
   margin-left: 72px;
+}
+
+.about__image {
+  position: relative;
+}
+
+.schedule-second {
+  position: absolute;
+  top: 285px;
+  left: 10px;
 }

@@ -158,7 +158,24 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   position: relative;
+}
+
+.about-first {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 650px;
+}
+
+.about-second {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .schedule {
@@ -177,4 +194,14 @@ img {
           flex-direction: column;
   width: 674px;
   margin-left: 72px;
+}
+
+.about__image {
+  position: relative;
+}
+
+.schedule-second {
+  position: absolute;
+  top: 285px;
+  left: 10px;
 }/*# sourceMappingURL=main.css.map */
